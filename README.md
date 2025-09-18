@@ -40,7 +40,12 @@ pip install -r requirements.txt
 docker run -d -p 6380:6379 redis
 ```
 
-5. Run the Application
+5. Start the Celery Worker
+```bash
+celery -A celery_app.celery_app worker --loglevel=info
+```
+
+6. Run the Application
 ```bash
 uvicorn main:app --reload --port 8000
 ```
