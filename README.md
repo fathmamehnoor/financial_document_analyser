@@ -222,7 +222,7 @@ uvicorn main:app --reload --port 8000
 ### System Upgrades Included:
 
 - **Queue Worker Model:** Added Celery + Redis to handle concurrent requests efficiently.  
-- **Database Integration:** PostgreSQL/SQLite used to store analysis results and user data.  
+- **Database Integration:** SQLite used to store analysis results and user data.  
 - **Structured Flow:** Tasks now follow professional sequence: verify → analyze → investment recommendation → risk assessment.  
 - **Agent Improvements:** Specialized agents used to avoid hallucinations and produce clear, realistic outputs.  
 - **Error Handling:** File validation, queue exceptions, and database errors handled gracefully.  
