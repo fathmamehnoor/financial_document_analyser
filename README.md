@@ -1,4 +1,4 @@
-# Financial Document Analyzer - Debug Assignment
+# Financial Document Analyzer
 
 ## Project Overview
 A comprehensive financial document analysis system that processes corporate reports, financial statements, and investment documents using AI-powered analysis agents. The system now supports concurrent requests via a Celery queue (Redis backend) and stores results in a database for persistence.
